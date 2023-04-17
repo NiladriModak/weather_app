@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" id="textbox" placeholder="Search Only By City Name">
+            <span class="icon"><button type="submit" id="btn"><i class="fa-2x fa fa-search"></i></button></span>
+        </div>
+
+        <h2>
+            <div class="cit">Weather in <span id="city"></span></div>
+           
+        </h2>
+        <h1>
+            <div class="temp"><span id="tempa"></span></div>
+        </h1>
+        <div class="informations">
+            <div class="yes des"> <span id="sy"></span></div>
+            <div class="yes des">Time : <span id="description"></span></div>
+            <div class="yes humidity">Humidity : <span id="humid"></span></div>
+            <div class="yes wind">Wind Speed : <span id="winds"></span></div>
+            <div class="yes des">Max Temp : <span id="maxt"></span></div>
+            <div class="yes humidity">Min Temp : <span id="mint"></span></div>
+            <div class="yes wind">Cloudiness : <span id="cloud"></span></div>
+            <div class="yes des">Timezone : <span id="zone"></span></div>
+            <!-- <div class="yes humidity">Humidity : <span id="humid"></span></div>
+            <div class="yes wind">Wind Speed <span id="winds"></span></div> -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
